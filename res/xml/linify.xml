@@ -1,0 +1,26 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="linify_ui"
+        android:title="@string/linify_ui_title"
+        android:summary="@string/linify_ui_summary"
+        android:fragment="com.android.settings.line.LineUiFragment"/>
+
+    <Preference
+        android:key="linify_perf"
+        android:title="@string/linify_perf_title"
+        android:summary="@string/linify_perf_summary"
+        android:enabled="false"/>
+
+    <Preference
+        android:key="linify_dev"
+        android:title="@string/linify_dev_title"
+        android:summary="@string/linify_dev_summary"
+        android:enabled="false"/>
+
+    <Preference
+        android:key="line_about"
+        android:title="@string/linify_about_title"
+        android:summary="@string/linify_about_summary"/>
+
+</PreferenceScreen>

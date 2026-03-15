@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:key="linify_ui_animations"
+        android:title="@string/linify_ui_animations_title"
+        android:summary="@string/linify_ui_animations_summary"
+        android:defaultValue="true" />
+
+    <ListPreference
+        android:key="linify_ui_animation_speed"
+        android:title="@string/linify_ui_animation_speed_title"
+        android:summary="@string/linify_ui_animation_speed_summary"
+        android:entries="@array/linify_anim_speed_entries"
+        android:entryValues="@array/linify_anim_speed_values"
+        android:dependency="linify_ui_animations" />
+
+</PreferenceScreen>

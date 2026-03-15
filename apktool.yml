@@ -1,0 +1,32 @@
+version: 2.12.1
+apkFileName: com.android.settings_10-29_minAPI29.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 29
+  targetSdkVersion: 29
+packageInfo:
+  forcedPackageId: 127
+versionInfo:
+  versionCode: 29
+  versionName: 10
+doNotCompress:
+- arsc
+- dex
+- jpg
+- mp4
+- ogg
+- png
+- res/drawable-nodpi/aware_display
+- res/drawable-nodpi/aware_settings
+- res/drawable-nodpi/gesture_ambient_lift
+- res/drawable-nodpi/gesture_ambient_tap_screen
+- res/drawable-nodpi/gesture_ambient_wake_lock_screen
+- res/drawable-nodpi/gesture_ambient_wake_screen
+- res/drawable-nodpi/gesture_assist
+- res/drawable-nodpi/gesture_double_tap
+- res/drawable-nodpi/gesture_fingerprint_swipe
+- res/drawable-nodpi/gesture_silence
+- res/drawable-nodpi/gesture_skip
+- res/drawable-nodpi/gesture_twist
